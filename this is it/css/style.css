@@ -34,7 +34,7 @@ h2{
 
 .container-first{
  width: 70%;
- margin: 55px auto; 90px auto;
+ margin: 55px auto 90px auto;
  border-style: dotted;
 }
 #first{
@@ -45,24 +45,33 @@ h2{
     float: right;
 }
 .firstSpan{
-    width: 50%;
-    margin-top: 10px;
+  margin-top: 10px;
+  width: 55%;
+  margin: 10px 0px 10px 0px;
+  background-color: white;
 }
 
 .container-second{
-    position: relative;
+    margin: 55px auto 90px auto;
  color: green;
  border-style: groove;
 }
 
-.secondSpan{
-    width: 32%;
-    float: left;
-    margin: 5px;
+#firstSpan{
+    margin-left: 0px;
+}
+
+#lastSpan{
+    margin-right: 0px;
 }
 
 .container-third{
  border-style: dashed;
+}
+
+.row{
+ border-bottom-width: thin;
+ border-color: #464646;
 }
 
 #first, #second{
@@ -70,15 +79,6 @@ h2{
   margin: 10px 0px 10px 0px;
   background-color: white;
 }
-
-
-
-.row{
- border-bottom-width: thin;
- border-color: #464646;
-}
-
-
 
 
 
