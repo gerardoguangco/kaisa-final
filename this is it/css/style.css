@@ -1,0 +1,138 @@
+@font-face {
+	font-family:'Bebas';
+ 	src: url('../fonts/BebasNeue.otf');
+    }
+@font-face {
+    font-family:'Myriad';
+    src: url('../fonts/MyriadPro-Regular.otf');
+    }  
+
+body{
+ background-color: #ffffcc;
+}
+
+.content{
+ text-align: center;
+ padding: 20px 20px 20px 20px;
+}
+
+.container{
+ border-style: groove;
+}
+
+p{
+ font-family: 'Myriad';
+}
+
+h2{
+ font-family: 'Bebas';
+ font-style: normal;
+ font-size: 40px;
+ margin: 10px 0px 10px 0px;
+ padding-top: 0px;
+}
+
+.container-first{
+ width: 70%;
+ margin: 55px auto; 90px auto;
+ border-style: dotted;
+}
+#first{
+ float: left;
+}
+
+#second{
+    float: right;
+}
+.firstSpan{
+    width: 50%;
+    margin-top: 10px;
+}
+
+.container-second{
+    position: relative;
+ color: green;
+ border-style: groove;
+}
+
+.secondSpan{
+    width: 32%;
+    float: left;
+    margin: 5px;
+}
+
+.container-third{
+ border-style: dashed;
+}
+
+#first, #second{
+  width: 49%;
+  margin: 10px 0px 10px 0px;
+  background-color: white;
+}
+
+
+
+.row{
+ border-bottom-width: thin;
+ border-color: #464646;
+}
+
+
+
+
+
+#box1{ 
+    
+}
+#box2{
+    
+}
+#box2 h2{
+    padding: 20px 20px 0px 10px;
+}
+
+.logo{
+ padding: 0px;
+ margin-top: 20px;
+ margin-bottom: 10px;
+}
+
+.readMore{
+ float: right;
+ margin-right: 10px;
+}
+
+
+.joinBtn{
+ color: white;
+ font-size: 20px;
+ background-color: red;
+ border-radius: 2px;
+ float: right;
+}
+
+.span12 h2{
+ text-align: center;
+}
+
+#links #list{
+ list-style: none;
+ float:right;
+}
+
+footer #copy{
+ float:right;   
+}
+
+#links #list li{
+ display: inline-block;   
+ margin-right: 40px;
+}
+.foot{
+    
+}
+#button .contactUs{
+ float: left;   
+    
+}
