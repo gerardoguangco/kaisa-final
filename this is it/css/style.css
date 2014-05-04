@@ -24,18 +24,27 @@ p{
  font-family: 'Myriad';
 }
 
-h2{
+h2, h4, #heading{
  font-family: 'Bebas';
  font-style: normal;
+ font-size: 30px;
+}
+
+h2, #heading{
  font-size: 40px;
  margin: 10px 0px 10px 0px;
- padding-top: 0px;
+ padding: 0px 10px 0px 0px;
+}
+
+#heading{
+ line-height: normal;
+ font-size: 40px;
+    
 }
 
 .container-first{
  width: 70%;
- margin: 55px auto 90px auto;
- border-style: dotted;
+ margin: 55px auto 30px auto;
 }
 #first{
  float: left;
@@ -52,8 +61,7 @@ h2{
 }
 
 .container-second{
-    margin: 55px auto 90px auto;
- color: green;
+ margin: 10px auto 20px auto;
  border-style: groove;
 }
 
@@ -61,12 +69,13 @@ h2{
     margin-left: 0px;
 }
 
-#lastSpan{
+#lastSpan p{
+    color: black;
+    background-color: black;
     margin-right: 0px;
 }
 
 .container-third{
- border-style: dashed;
 }
 
 .row{
@@ -103,14 +112,39 @@ h2{
  margin-right: 10px;
 }
 
+.thirdSpan{  
+    
+    float: right;
+}
+
+#heading{
+    margin-left: 200px;
+    margin-right: 20px;
+}
+
+#foot{
+    clear:both;
+    
+}
+.joinBtn, .contactButton{
+ color: white;
+ font-family: 'Bebas';
+ line-height: normal;
+ border-radius: 5px;
+ margin: px;
+ padding: 4px;
+}
 
 .joinBtn{
- color: white;
- font-size: 20px;
- background-color: red;
- border-radius: 2px;
- float: right;
+ background-color: red;   
+ font-size: 40px;
 }
+.contactButton{
+ background-color: blue;
+ font-size: 30px;
+    
+}
+
 
 .span12 h2{
  text-align: center;
@@ -128,11 +162,4 @@ footer #copy{
 #links #list li{
  display: inline-block;   
  margin-right: 40px;
-}
-.foot{
-    
-}
-#button .contactUs{
- float: left;   
-    
 }
