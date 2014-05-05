@@ -178,14 +178,12 @@ footer #copy{
 
 .box{
     margin-bottom: 30px;
-    
+    border-radius: 10px;
 }
 
 /*START OF FIRST BOX*/
 #firstBox{
-    
     background-color: yellow;
-    border-radius: 10px;
 }
 
 #stars{
@@ -193,11 +191,41 @@ footer #copy{
     margin-bottom: 20px;
     background-color: white;
 }
-
 #stars p{
     float:right;
 }
 
+#about-page-box-1-container{
+    width: 99%;
+    margin: 0px auto 30px auto;
+}
+
+#about-page-box-1-container .span6  {
+    
+}
+
+
+.span6 h3{
+    font-family: 'Bebas';
+    font-size: 30px;
+    color: white;
+}
+
+.span6 img{
+    float: left;
+    margin-top: 0px;
+    
+}
+
+#about-content-first-box
+{
+ float: left;   
+}
+
+#about-content-second-box
+{
+ float: right;   
+}
 /*END OF FIRST BOX*/
 
 #secondBox{
@@ -211,6 +239,13 @@ footer #copy{
     background-color: red;
     
 }
+.content-about h1{
+    
+    font-family: 'Bebas';
+    text-align: center;
+    
+}
+
 /*END OF ABOUT PAGE CSS
 
 ======================================================================*/
