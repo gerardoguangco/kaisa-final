@@ -1,0 +1,253 @@
+@font-face {
+	font-family:'Bebas';
+ 	src: url('../fonts/BebasNeue.otf');
+    }
+@font-face {
+    font-family:'Myriad';
+    src: url('../fonts/MyriadPro-Regular.otf');
+    }  
+/*START OF HOME PAGE CSS
+
+======================================================================*/
+body{
+ background-color: #ffffff;
+}
+
+.content-home{
+ text-align: center;
+ padding: 20px 20px 20px 20px;
+}
+
+.container{
+}
+
+p{
+ font-family: 'Myriad';
+}
+
+h2, h4, #heading{
+ font-family: 'Bebas';
+ font-style: normal;
+ font-size: 30px;
+}
+
+h2, #heading{
+ font-size: 40px;
+ margin: 10px 0px 10px 0px;
+ padding: 0px 10px 0px 0px;
+}
+
+#heading{
+ line-height: normal;
+ font-size: 40px;
+    
+}
+
+.container-first{
+ width: 70%;
+ margin: 55px auto 30px auto;
+}
+#first{
+ float: left;
+}
+
+#second{
+    float: right;
+}
+.firstSpan{
+  margin-top: 10px;
+  width: 55%;
+  margin: 10px 0px 10px 0px;
+  background-color: white;
+}
+
+.container-second{
+ margin: 10px auto 20px auto;
+ border-style: groove;
+}
+
+#firstSpan{
+    margin-left: 0px;
+}
+
+#lastSpan p{
+    color: black;
+    background-color: black;
+    margin-right: 0px;
+}
+
+.container-third{
+}
+
+.row{
+ margin-top: 0px;
+ border-bottom-width: thin;
+ border-color: #464646;
+}
+
+#first, #second{
+  width: 49%;
+  margin: 10px 0px 10px 0px;
+  background-color: white;
+}
+
+
+
+#box1{ 
+    
+}
+#box2{
+    
+}
+#box2 h2{
+    padding: 20px 20px 0px 10px;
+}
+
+.logo{
+ padding: 0px;
+ margin-top: 20px;
+ margin-bottom: 10px;
+}
+
+.readMore{
+ float: right;
+ margin-right: 10px;
+}
+
+.thirdSpan{  
+    
+    float: right;
+}
+
+#heading{
+    margin-left: 200px;
+    margin-right: 20px;
+}
+
+#foot{
+    clear:both;
+    
+}
+.joinBtn, .contactButton{
+ color: white;
+ font-family: 'Bebas';
+ line-height: normal;
+ border-radius: 5px;
+ margin: px;
+ padding: 4px;
+}
+
+.joinBtn{
+ background-color: red;   
+ font-size: 40px;
+}
+.contactButton{
+ background-color: blue;
+ font-size: 30px;
+    
+}
+
+
+.span12 h2{
+ text-align: center;
+}
+
+#links #list{
+ list-style: none;
+ float:right;
+}
+
+footer #copy{
+ float:right;   
+}
+
+#links #list li{
+ display: inline-block;   
+ margin-right: 40px;
+}
+/*END OF HOME PAGE CSS
+
+======================================================================*/
+/*START OF ABOUT PAGE CSS
+
+======================================================================*/
+
+.content-about{
+    margin-top: 50px;
+}
+
+.box{
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+/*START OF FIRST BOX*/
+#firstBox{
+    margin-top: 0px;
+    background-color: #FF8100;
+}
+
+#stars{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+#stars p{
+    float:right;
+}
+
+#about-page-box-1-container{
+    width: 99%;
+    margin: 0px auto 30px auto;
+}
+
+#about-page-box-1-container .span6  {
+    
+}
+
+
+.span6 h3{
+    color: white;
+    font-family: 'Bebas';
+    font-size: 30px;
+}
+
+.span6 img{
+    float: left;
+    margin-top: 0px;
+    
+}
+
+#about-content-first-box
+{
+ float: left;   
+}
+
+#about-content-second-box
+{
+ float: right;   
+}
+/*END OF FIRST BOX*/
+
+#secondBox{
+    
+    background-color: #6F8FC7;
+    
+}
+
+#thirdBox{
+    
+    background-color: #A40004;
+    
+}
+.content-about h1{
+    margin-bottom: 0px;
+    font-family: 'Bebas';
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 3px 3px white;
+}
+
+/*END OF ABOUT PAGE CSS
+
+======================================================================*/
