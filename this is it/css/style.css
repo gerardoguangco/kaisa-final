@@ -6,12 +6,14 @@
     font-family:'Myriad';
     src: url('../fonts/MyriadPro-Regular.otf');
     }  
+/*START OF HOME PAGE CSS
 
+======================================================================*/
 body{
  background-color: #ffffcc;
 }
 
-.content{
+.content-home{
  text-align: center;
  padding: 20px 20px 20px 20px;
 }
@@ -163,3 +165,52 @@ footer #copy{
  display: inline-block;   
  margin-right: 40px;
 }
+/*END OF HOME PAGE CSS
+
+======================================================================*/
+/*START OF ABOUT PAGE CSS
+
+======================================================================*/
+
+.content-about{
+    margin-top: 50px;
+}
+
+.box{
+    margin-bottom: 30px;
+    
+}
+
+/*START OF FIRST BOX*/
+#firstBox{
+    
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+#stars{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+#stars p{
+    float:right;
+}
+
+/*END OF FIRST BOX*/
+
+#secondBox{
+    
+    background-color: blue;
+    
+}
+
+#thirdBox{
+    
+    background-color: red;
+    
+}
+/*END OF ABOUT PAGE CSS
+
+======================================================================*/
