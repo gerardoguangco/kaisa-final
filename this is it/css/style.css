@@ -10,7 +10,7 @@
 
 ======================================================================*/
 body{
- background-color: #ffffcc;
+ background-color: #ffffff;
 }
 
 .content-home{
@@ -19,7 +19,6 @@ body{
 }
 
 .container{
- border-style: groove;
 }
 
 p{
@@ -81,6 +80,7 @@ h2, #heading{
 }
 
 .row{
+ margin-top: 0px;
  border-bottom-width: thin;
  border-color: #464646;
 }
@@ -183,7 +183,8 @@ footer #copy{
 
 /*START OF FIRST BOX*/
 #firstBox{
-    background-color: yellow;
+    margin-top: 0px;
+    background-color: #FF8100;
 }
 
 #stars{
@@ -206,9 +207,9 @@ footer #copy{
 
 
 .span6 h3{
+    color: white;
     font-family: 'Bebas';
     font-size: 30px;
-    color: white;
 }
 
 .span6 img{
@@ -230,20 +231,21 @@ footer #copy{
 
 #secondBox{
     
-    background-color: blue;
+    background-color: #6F8FC7;
     
 }
 
 #thirdBox{
     
-    background-color: red;
+    background-color: #A40004;
     
 }
 .content-about h1{
-    
+    margin-bottom: 0px;
     font-family: 'Bebas';
+    font-size: 50px;
     text-align: center;
-    
+    text-shadow: 3px 3px white;
 }
 
 /*END OF ABOUT PAGE CSS
