@@ -1,0 +1,30 @@
+
+.content{
+    margin-top: 50px;
+}
+
+.box{
+    margin-bottom: 30px;
+    
+}
+#firstBox{
+    
+    background-color: yellow;
+}
+
+#secondBox{
+    
+    background-color: blue;
+    
+}
+#heaad{
+ margin-top:20px;
+ background-color: black;   
+    
+}
+
+#thirdBox{
+    
+    background-color: red;
+    
+}
