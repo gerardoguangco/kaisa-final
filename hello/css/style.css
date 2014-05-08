@@ -42,29 +42,39 @@ color: #333333;
 
 .container{
 
-	margin: 5em 4em 5em 7	em;
+	margin: 5em 4em 5em 4em;
+    
 }
 
 #firstbox{
 
 	background-color: #F9FF45;
 	border-radius:25px;
-	margin: 3em 5em 3em 5em;
+	margin: 3em 5em 0em 5em;
 }
 
 #secondbox{
 
 	background-color: #3CA2FF;
 	border-radius:25px;
-	margin: 3em 5em 3em 5em;
+	margin: 3em 5em 0em 5em;
 }
 
 #thirdbox{
 
 	background-color: #FF3F29;
 	border-radius:25px;
-	margin: 3em 5em 3em 5em;
+	margin: 3em 5em 0em 5em;
 }
+
+#sub1, #sub2, #sub3, #sub4, #sub5, #sub6, #sub7{
+    background-color: white;
+    margin: 0em 5em 3em 5em;
+    border-radius:25px;
+    display: none;
+    
+}
+
 
 
 
