@@ -31,7 +31,10 @@ h2{
 
 img{
 
-	padding: 20px 20px 20px 20px;
+	padding: 2em 1em 3em 1em;
+	max-width:100%; 
+	margin:auto;
+	display:block;
 }
 
 .btn{
@@ -42,29 +45,39 @@ color: #333333;
 
 .container{
 
-	margin: 5em 4em 5em 7	em;
+	margin: 1em 10% 2em 7%;
+    
 }
 
 #firstbox{
 
 	background-color: #F9FF45;
 	border-radius:25px;
-	margin: 3em 5em 3em 5em;
+	margin: 3em 5% 3em 5%;
 }
 
 #secondbox{
 
 	background-color: #3CA2FF;
 	border-radius:25px;
-	margin: 3em 5em 3em 5em;
+	margin: 3em 5% 3em 5%;
 }
 
 #thirdbox{
 
 	background-color: #FF3F29;
 	border-radius:25px;
-	margin: 3em 5em 3em 5em;
+	margin: 3em 5% 3em 5%;
 }
+
+#sub1, #sub2, #sub3, #sub4, #sub5, #sub6, #sub7{
+    background-color: white;
+    margin: 0em 5em 3em 5em;
+    border-radius:25px;
+    display: none;
+    
+}
+
 
 
 
