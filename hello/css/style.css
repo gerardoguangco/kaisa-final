@@ -45,7 +45,11 @@ color: #333333;
 
 .container{
 
+<<<<<<< HEAD
 	margin: 1em 10% 2em 7%;
+=======
+	margin: 5em 4em 5em 4em;
+>>>>>>> 102d27ff0b1c317c9a4e2895014f61a67c65aac0
     
 }
 
@@ -53,21 +57,33 @@ color: #333333;
 
 	background-color: #F9FF45;
 	border-radius:25px;
+<<<<<<< HEAD
 	margin: 3em 5% 3em 5%;
+=======
+	margin: 3em 5em 0em 5em;
+>>>>>>> 102d27ff0b1c317c9a4e2895014f61a67c65aac0
 }
 
 #secondbox{
 
 	background-color: #3CA2FF;
 	border-radius:25px;
+<<<<<<< HEAD
 	margin: 3em 5% 3em 5%;
+=======
+	margin: 3em 5em 0em 5em;
+>>>>>>> 102d27ff0b1c317c9a4e2895014f61a67c65aac0
 }
 
 #thirdbox{
 
 	background-color: #FF3F29;
 	border-radius:25px;
+<<<<<<< HEAD
 	margin: 3em 5% 3em 5%;
+=======
+	margin: 3em 5em 0em 5em;
+>>>>>>> 102d27ff0b1c317c9a4e2895014f61a67c65aac0
 }
 
 #sub1, #sub2, #sub3, #sub4, #sub5, #sub6, #sub7{

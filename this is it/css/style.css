@@ -10,7 +10,7 @@
 
 ======================================================================*/
 body{
- background-color: #ffffff;
+ background-color: #ffffcc;
 }
 
 .content-home{
@@ -23,6 +23,7 @@ body{
 
 p{
  font-family: 'Myriad';
+ color: black;
 }
 
 h2, h4, #heading{
@@ -184,7 +185,7 @@ footer #copy{
 /*START OF FIRST BOX*/
 #firstBox{
     margin-top: 0px;
-    background-color: #FF8100;
+    background-color: white;
 }
 
 #stars{
@@ -207,7 +208,7 @@ footer #copy{
 
 
 .span6 h3{
-    color: white;
+    color: #333333;
     font-family: 'Bebas';
     font-size: 30px;
 }
@@ -231,13 +232,13 @@ footer #copy{
 
 #secondBox{
     
-    background-color: #6F8FC7;
+    background-color: white;
     
 }
 
 #thirdBox{
     
-    background-color: #A40004;
+    background-color: white;
     
 }
 .content-about h1{
@@ -245,7 +246,8 @@ footer #copy{
     font-family: 'Bebas';
     font-size: 50px;
     text-align: center;
-    text-shadow: 3px 3px white;
+    text-shadow: 3px 3px gray;
+    opacity: 2px;
 }
 
 /*END OF ABOUT PAGE CSS
