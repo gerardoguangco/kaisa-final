@@ -29,33 +29,41 @@ h2{
 
 }
 
+img{
+
+	padding: 20px 20px 20px 20px;
+}
+
 .btn{
 
 color: #333333;
 
 }
 
-img{
+.container{
 
-	padding: 20px 20px 20px 20px;
+	margin: 5em 4em 5em 7	em;
 }
 
 #firstbox{
 
 	background-color: #F9FF45;
 	border-radius:25px;
+	margin: 3em 5em 3em 5em;
 }
 
 #secondbox{
 
 	background-color: #3CA2FF;
 	border-radius:25px;
+	margin: 3em 5em 3em 5em;
 }
 
 #thirdbox{
 
 	background-color: #FF3F29;
 	border-radius:25px;
+	margin: 3em 5em 3em 5em;
 }
 
 
